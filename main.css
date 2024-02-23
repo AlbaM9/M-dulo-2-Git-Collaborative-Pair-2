@@ -1,9 +1,11 @@
 .head {
+
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
     border-radius: 50%;
+
 }
 
 .face {
@@ -17,9 +19,12 @@
 
 }
 
-.page {
-    position: absolute;
-    top: 50%;
-    left: 50%;
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
